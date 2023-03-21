@@ -1,4 +1,15 @@
+public class Zele extends DortDekorator{
+    public Zele(Dort dort) {
+        super(dort);
+    }
 
-public class Zele {
+    public String decorate() {
+        return super.decorate() + decoratesZele();
+    }
+
+    private String decoratesZele() {
+        return " se Želé";
+    }
+}
 
 }

@@ -1,4 +1,8 @@
+public class DortDekorator implements Dort {
+    private Dort dort;
 
-public class DortDekorator {
-
+    @Override
+    public String decorate() {
+        return dort.decorate();
+    }
 }

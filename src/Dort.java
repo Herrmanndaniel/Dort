@@ -1,5 +1,4 @@
-
 public interface Dort {
-	 String decorate();
-
+    String decorate();
+    int neco();
 }
